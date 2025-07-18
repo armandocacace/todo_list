@@ -30,7 +30,7 @@ function App() {
   };
 
   return (
-    <div class="div">
+    <div className="div">
       <h2>To-Do List</h2>
       <input
         value={text}
