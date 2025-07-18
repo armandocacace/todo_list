@@ -3,9 +3,10 @@
 }
 
 .div {
-  background-color: #FFBE98;
+  background-color: Azure;
   width: 100%;
-  margin: 0 auto; 
+  height: 100%;
+  text-align: center; 
   font-family: Arial, sans-serif;
 }
 .App-logo {
