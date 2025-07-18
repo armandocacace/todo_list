@@ -73,7 +73,7 @@ function App() {
           padding: 5,
           background: '#fff9e6',
           borderRadius: 8,
-          maxWidth: auto,
+          maxWidth: 450,
           marginBottom: 10
         }}>
           <ul style={{ listStyle: 'none', padding: 0 }}>
