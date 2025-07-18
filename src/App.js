@@ -30,7 +30,7 @@ function App() {
   };
 
   return (
-    <div style={{ padding: 20, fontFamily: 'sans-serif' }}>
+    <div style={{ padding: 50, fontFamily: 'sans-serif' }}>
       <h2>To-Do List</h2>
       <input
         value={text}
