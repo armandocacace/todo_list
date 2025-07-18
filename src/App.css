@@ -4,8 +4,9 @@
 
 .div {
   background-color: #FFBE98;
-  width: 300px;
+  width: 100%;
   margin: 0 auto; 
+  font-family: Arial, sans-serif;
 }
 .App-logo {
   height: 40vmin;
