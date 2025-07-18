@@ -45,7 +45,13 @@ function App() {
       <button onClick={addTask}>Aggiungi</button>
       <ul style={{ marginTop: 20 }}>
         {tasks.map(task => (
-          <li key={task.id} style={{ marginBottom: 6 }}>
+          <li key={task.id} style={{ 
+            marginBottom: 6 
+            maxWidth: 300,
+            wordWrap: 'break-word',
+            overflowWrap: 'break-word',
+            whiteSpace: 'normal'
+        }}>
             {task.text}{' '}
             <button onClick={() => deleteTask(task.id)}>X</button>
           </li>
