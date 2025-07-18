@@ -59,7 +59,16 @@ function App() {
   return (
     <div className="div">
       <div className="content">
-        <h2>To-Do List</h2>
+        <h2>Lista della Spesa</h2>
+        <input
+          value={text}
+          onChange={e => setText(e.target.value)}
+          onKeyDown={e => e.key === 'Enter' && addTask()}
+          placeholder="Nuovo task"
+          style={{ marginRight: 8 }}
+        />
+        <button onClick={addTask}>Aggiungi</button>
+        <br /><br />
         <div ref={listRef} style={{
           padding: 16,
           background: '#fff9e6',
@@ -84,16 +93,7 @@ function App() {
             ))}
           </ul>
         </div>
-        <input
-          value={text}
-          onChange={e => setText(e.target.value)}
-          onKeyDown={e => e.key === 'Enter' && addTask()}
-          placeholder="Nuovo task"
-          style={{ marginRight: 8 }}
-        />
-        <button onClick={addTask}>Aggiungi</button>
-        <br /><br />
-        <button onClick={condividiLista}>Condividi come immagine</button>
+         <button onClick={condividiLista}>Condividi come immagine</button>
       </div>
     </div>
   );
