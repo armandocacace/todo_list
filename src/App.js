@@ -32,7 +32,7 @@ function App() {
   return (
     <div className="div">
     <div className="comtent">
-      <h2>To-Do List</h2>
+      <h2>Lista della Spesa</h2>
       <input
         value={text}
         onChange={e => setText(e.target.value)}
