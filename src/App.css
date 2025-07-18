@@ -2,6 +2,9 @@
   text-align: center;
 }
 
+.div {
+  background-color: teal;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
