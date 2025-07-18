@@ -31,12 +31,13 @@ function App() {
 
   return (
     <div className="div">
+    <div className="comtent">
       <h2>To-Do List</h2>
       <input
         value={text}
         onChange={e => setText(e.target.value)}
         placeholder="Nuovo task"
-        style={{ marginRight: 8 }} className="content"
+        style={{ marginRight: 8 }}
       />
       <button onClick={addTask}>Aggiungi</button>
       <ul style={{ marginTop: 20 }}>
@@ -47,6 +48,7 @@ function App() {
           </li>
         ))}
       </ul>
+    </div>      
     </div>
   );
 }
