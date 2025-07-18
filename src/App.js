@@ -93,7 +93,7 @@ function App() {
             ))}
           </ul>
         </div>
-         <button onClick={condividiLista}>Condividi come immagine</button>
+         <button onClick={condividiLista}>Condividi!</button>
       </div>
     </div>
   );
