@@ -3,7 +3,11 @@
 }
 
 .div {
-  background-color: #A47864;
+  background-color: #FFBE98;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  height: 100vh;     
 }
 .App-logo {
   height: 40vmin;
