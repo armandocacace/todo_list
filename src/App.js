@@ -36,6 +36,9 @@ function App() {
       <input
         value={text}
         onChange={e => setText(e.target.value)}
+        onKeyDown={e => {
+          if (e.key === 'Enter') addTask();
+        }}
         placeholder="Nuovo task"
         style={{ marginRight: 8 }}
       />
