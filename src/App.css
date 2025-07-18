@@ -1,7 +1,9 @@
 .App {
   text-align: center;
 }
-
+h2 {
+  text-align: center;
+}
 .div {
   background-color: 		#C0C0C0;
   display: flex;
