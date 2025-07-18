@@ -70,8 +70,7 @@ function App() {
         <button onClick={addTask}>Aggiungi</button>
         <br /><br />
         <div ref={listRef} style={{
-          padding: 5,
-          background: '#fff9e6',
+          background: '#C0C0C0',
           borderRadius: 8,
           maxWidth: 450,
           marginBottom: 10
