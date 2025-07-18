@@ -36,7 +36,7 @@ function App() {
         value={text}
         onChange={e => setText(e.target.value)}
         placeholder="Nuovo task"
-        style={{ marginRight: 8 }}, className="content"
+        style={{ marginRight: 8 }} className="content"
       />
       <button onClick={addTask}>Aggiungi</button>
       <ul style={{ marginTop: 20 }}>
