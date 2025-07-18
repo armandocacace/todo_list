@@ -70,11 +70,11 @@ function App() {
         <button onClick={addTask}>Aggiungi</button>
         <br /><br />
         <div ref={listRef} style={{
-          padding: 16,
+          padding: 5px,
           background: '#fff9e6',
           borderRadius: 8,
-          maxWidth: 400,
-          marginBottom: 16
+          maxWidth: auto,
+          marginBottom: 10
         }}>
           <ul style={{ listStyle: 'none', padding: 0 }}>
             {tasks.map(task => (
