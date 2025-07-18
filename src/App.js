@@ -46,7 +46,7 @@ function App() {
       <ul style={{ marginTop: 20 }}>
         {tasks.map(task => (
           <li key={task.id} style={{ 
-            marginBottom: 6 
+            marginBottom: 6,
             maxWidth: 300,
             wordWrap: 'break-word',
             overflowWrap: 'break-word',
