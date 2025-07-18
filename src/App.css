@@ -8,9 +8,10 @@
   justify-content: center;  
   height: 100vh;             
   font-family: Arial, sans-serif;
+  padding: 75px;
 }
 .content {
-  padding: 75px;
+  
   background: white;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
